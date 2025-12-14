@@ -4,12 +4,12 @@ import { motion } from "framer-motion";
 
 const skills = [
   "Python",
+  "C",
+  "C++",
   "JavaScript",
   "React",
   "Node.js",
-  "Next.js",
   "Machine Learning",
-  "AI & ML",
   "MongoDB",
   "MySQL",
   "HTML & CSS",

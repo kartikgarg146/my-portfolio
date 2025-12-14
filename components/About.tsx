@@ -21,16 +21,22 @@ export default function About() {
 
         <p className="mt-6 text-lg text-gray-400 leading-relaxed">
           I’m a third-year engineering student specializing in{" "}
-          <span className="text-white">Artificial Intelligence & Machine Learning</span>.
-          I enjoy building intelligent systems, real-time applications,
-          and scalable full-stack solutions.
+          <span className="text-white">
+            Artificial Intelligence & Machine Learning
+          </span>
+          , with a strong interest in web and backend development. I enjoy
+          problem-solving and building clean, efficient, and scalable
+          applications.
         </p>
 
         <p className="mt-4 text-lg text-gray-400 leading-relaxed">
-          I have hands-on experience with{" "}
-          <span className="text-white">Python, JavaScript, React, Node.js</span>,
-          and love experimenting with machine learning models,
-          data preprocessing, and modern web technologies.
+          I have worked with{" "}
+          <span className="text-white">
+            Python, JavaScript, React, and Node.js
+          </span>{" "}
+          while building academic and personal projects, and I am
+          continuously learning modern web technologies and system
+          development concepts.
         </p>
       </motion.div>
     </section>
