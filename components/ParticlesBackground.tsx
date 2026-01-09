@@ -13,7 +13,7 @@ export default function ParticlesBackground() {
       await loadAll(engine);
     }).then(() => {
       setInit(true);
-    });
+    } );
   }, []);
 
   const particlesLoaded = async (container?: Container) => {
