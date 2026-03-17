@@ -15,7 +15,7 @@ const projects = [
       "NLP",
       "Gemini API",
     ],
-    link: "github.com/kartikgarg146",
+    link: "https://github.com/kartikgarg146",
   },
   {
     title: "Real-Time Public Transport Tracking System",
@@ -29,7 +29,7 @@ const projects = [
       "GPS",
       "Maps API",
     ],
-    link: "github.com/kartikgarg146",
+    link: "https://github.com/kartikgarg146",
   },
   {
     title: "Plant Disease Detection Using Leaf Images",
@@ -42,7 +42,7 @@ const projects = [
       "TensorFlow",
       "Image Processing",
     ],
-    link: "github.com/kartikgarg146",
+    link: "https://github.com/kartikgarg146",
   },
   {
     title: "Smart Library Management Platform",
@@ -55,7 +55,7 @@ const projects = [
       "Express",
       "MongoDB",
     ],
-    link: "github.com/kartikgarg146",
+    link: "https://github.com/kartikgarg146",
   },
   {
     title: "Car Sales Platform",
@@ -67,7 +67,7 @@ const projects = [
       "JSP / Servlets",
       "MySQL",
     ],
-    link: "github.com/kartikgarg146",
+    link: "https://github.com/kartikgarg146",
   },
   {
     title: "File Sharing Platform",
@@ -79,7 +79,7 @@ const projects = [
       "PHP",
       "MySQL",
     ],
-    link: "github.com/kartikgarg146",
+    link: "https://github.com/kartikgarg146",
   },
 ];
 
@@ -149,6 +149,8 @@ export default function Projects() {
               {/* ALIGNED CTA */}
               <a
                 href={project.link}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="mt-6 inline-flex items-center text-sm
                            text-indigo-400 hover:underline"
               >

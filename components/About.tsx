@@ -20,23 +20,18 @@ export default function About() {
         </h2>
 
         <p className="mt-6 text-lg text-gray-400 leading-relaxed">
-          I’m a third-year engineering student specializing in{" "}
-          <span className="text-white">
-            Artificial Intelligence & Machine Learning
-          </span>
-          , with a strong interest in web and backend development. I enjoy
-          problem-solving and building clean, efficient, and scalable
-          applications.
+          I am a Computer Science (AIML) undergraduate currently in my third year,
+          with a strong foundation in software development and problem-solving.
+          I am particularly interested in building scalable backend systems and
+          full-stack web applications that solve real-world problems.
         </p>
 
         <p className="mt-4 text-lg text-gray-400 leading-relaxed">
-          I have worked with{" "}
-          <span className="text-white">
-            Python, JavaScript, React, and Node.js
-          </span>{" "}
-          while building academic and personal projects, and I am
-          continuously learning modern web technologies and system
-          development concepts.
+          I have hands-on experience with Python, JavaScript, React, and Django,
+          and have worked on projects involving REST APIs, machine learning, and
+          real-time systems. I am continuously strengthening my data structures
+          and algorithms skills while exploring modern technologies to build
+          efficient and reliable software solutions.
         </p>
       </motion.div>
     </section>

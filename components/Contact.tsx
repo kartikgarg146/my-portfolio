@@ -30,11 +30,11 @@ export default function Contact() {
         <div className="mt-12 flex flex-col items-center gap-6 text-gray-300">
           {/* Email */}
           <a
-            href="mailto:kartikgarg146@gmail.com"
+            href="mailto:gargkartik623@gmail.com"
             className="flex items-center gap-3 hover:text-white transition"
           >
             <FaEnvelope className="text-indigo-400" />
-            kartikgarg146@gmail.com
+            gargkartik623@gmail.com
           </a>
 
           {/* Social Icons */}
