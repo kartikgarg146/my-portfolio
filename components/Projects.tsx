@@ -4,6 +4,20 @@ import { motion } from "framer-motion";
 
 const projects = [
   {
+    title: "AI-Powered Mental Health Chatbot",
+    description:
+      "A full-stack mental health chatbot and tracking system that enables users to log daily moods and visualize emotional trends. It integrates an NLP-based conversational chatbot using the Gemini API to provide context-aware responses and basic emotional support.",
+    tech: [
+      "React",
+      "TypeScript",
+      "Flask",
+      "Python",
+      "NLP",
+      "Gemini API",
+    ],
+    link: "github.com/kartikgarg146",
+  },
+  {
     title: "Real-Time Public Transport Tracking System",
     description:
       "A real-time public transport tracking system that displays live vehicle locations on interactive maps using GPS data. Built with a scalable Node.js backend and REST APIs to handle continuous location updates efficiently, ensuring accurate tracking even in low-network conditions.",
@@ -15,7 +29,7 @@ const projects = [
       "GPS",
       "Maps API",
     ],
-    link: "#",
+    link: "github.com/kartikgarg146",
   },
   {
     title: "Plant Disease Detection Using Leaf Images",
@@ -28,7 +42,7 @@ const projects = [
       "TensorFlow",
       "Image Processing",
     ],
-    link: "#",
+    link: "github.com/kartikgarg146",
   },
   {
     title: "Smart Library Management Platform",
@@ -41,7 +55,7 @@ const projects = [
       "Express",
       "MongoDB",
     ],
-    link: "#",
+    link: "github.com/kartikgarg146",
   },
   {
     title: "Car Sales Platform",
@@ -53,7 +67,7 @@ const projects = [
       "JSP / Servlets",
       "MySQL",
     ],
-    link: "#",
+    link: "github.com/kartikgarg146",
   },
   {
     title: "File Sharing Platform",
@@ -65,7 +79,7 @@ const projects = [
       "PHP",
       "MySQL",
     ],
-    link: "#",
+    link: "github.com/kartikgarg146",
   },
 ];
 
