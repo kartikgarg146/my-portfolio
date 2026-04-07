@@ -29,7 +29,7 @@ const projects = [
       "GPS",
       "Maps API",
     ],
-    link: "https://github.com/kartikgarg146",
+    link: "https://github.com/kartikgarg146/Sadda_Safar-Real-Time-Bus-Tracking-System",
   },
   {
     title: "Plant Disease Detection Using Leaf Images",
@@ -55,7 +55,7 @@ const projects = [
       "Express",
       "MongoDB",
     ],
-    link: "https://github.com/kartikgarg146",
+    link: "https://github.com/kartikgarg146/Libronexa-Smart-Library-Management-Platform",
   },
   {
     title: "Car Sales Platform",
@@ -79,7 +79,7 @@ const projects = [
       "PHP",
       "MySQL",
     ],
-    link: "https://github.com/kartikgarg146",
+    link: "https://github.com/kartikgarg146/Dropico-File-Sharing-Platform",
   },
 ];
 
