@@ -9,12 +9,16 @@ const skills = [
   "JavaScript",
   "React",
   "Node.js",
+  "Django",
+  "REST APIs",
   "Machine Learning",
   "MongoDB",
   "MySQL",
   "HTML & CSS",
   "Git & GitHub",
   "Data Preprocessing",
+  "Data Structures",
+  "System Design",
 ];
 
 export default function Skills() {

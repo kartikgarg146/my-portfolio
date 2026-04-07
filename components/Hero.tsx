@@ -34,13 +34,13 @@ export default function Hero() {
 
       {/* SUBTITLE */}
       <p className="mt-4 text-lg md:text-xl text-gray-300 max-w-2xl">
-        AI & ML Student · Full-Stack Developer · Smart India Hackathon 2025 Finalist
+        AI & ML Engineer · Full-Stack Developer · Smart India Hackathon 2025 Finalist
       </p>
 
       {/* BADGES */}
       <div className="mt-8 flex flex-wrap justify-center gap-4">
         <span className="px-4 py-2 rounded-full bg-white/10 border border-white/20">
-          🧠 AI & ML
+          🧠 AIML
         </span>
         <span className="px-4 py-2 rounded-full bg-white/10 border border-white/20">
           ⚙️ Full-Stack
