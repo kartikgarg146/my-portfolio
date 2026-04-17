@@ -20,18 +20,24 @@ export default function About() {
         </h2>
 
         <p className="mt-6 text-lg text-gray-400 leading-relaxed">
-          I am a Computer Science (AIML) undergraduate currently in my third year,
-          with a strong foundation in software development and problem-solving.
-          I am particularly interested in building scalable backend systems and
-          full-stack web applications that solve real-world problems.
+          I'm a third-year Computer Science (AIML) undergraduate with a passion for
+          building software that's not just functional — but purposeful. From scalable
+          backend systems to intelligent ML-powered applications, I enjoy working across
+          the full stack to bring ideas to life.
         </p>
 
         <p className="mt-4 text-lg text-gray-400 leading-relaxed">
-          I have hands-on experience with Python, JavaScript, React, and Django,
-          and have worked on projects involving REST APIs, machine learning, and
-          real-time systems. I am continuously strengthening my data structures
-          and algorithms skills while exploring modern technologies to build
-          efficient and reliable software solutions.
+          I have hands-on experience with Python, JavaScript, React, and Django, and have
+          worked on projects involving REST APIs, machine learning, and real-time systems. 
+          Each project has pushed me to think not just about writing code, but about designing 
+          systems that are efficient, reliable, and built to scale.
+        </p>
+
+        <p className="mt-4 text-lg text-gray-400 leading-relaxed">
+          Currently, I'm deepening my expertise in data structures, algorithms, and system
+          design while exploring the intersection of AI and full-stack engineering. I'm
+          always looking for opportunities to work on challenging problems, contribute to
+          meaningful projects, and keep growing as a developer.
         </p>
       </motion.div>
     </section>
