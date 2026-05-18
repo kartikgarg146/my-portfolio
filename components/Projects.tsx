@@ -32,6 +32,19 @@ const projects = [
     link: "https://github.com/kartikgarg146/Sadda_Safar-Real-Time-Bus-Tracking-System",
   },
   {
+    title: "AI Travel Planner",
+    description:
+      "An AI-powered travel planning platform that generates personalized itineraries, budget estimates, hotel suggestions, and travel recommendations through a conversational interface. The system uses LLMs and RAG-based document support to deliver smart, context-aware travel assistance.",
+    tech: [
+      "Python",
+      "Streamlit",
+      "LangChain",
+      "Groq API",
+      "FAISS",
+    ],
+    link: "https://github.com/kartikgarg146/AI-Travel-Planner",
+  },
+  {
     title: "Plant Disease Detection Using Leaf Images",
     description:
       "An AI-powered plant disease detection system that classifies plant diseases from leaf images using CNN. The model was trained on labeled image datasets and leverages deep learning techniques to achieve high accuracy, enabling early disease detection and prevention in crops.",
