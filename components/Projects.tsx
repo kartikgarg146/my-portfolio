@@ -42,7 +42,7 @@ const projects = [
       "Groq API",
       "FAISS",
     ],
-    link: "https://github.com/kartikgarg146/AI-Travel-Planner",
+    link: "https://ai-travel-planner-kartik.streamlit.app/",
   },
   {
     title: "Plant Disease Detection Using Leaf Images",
