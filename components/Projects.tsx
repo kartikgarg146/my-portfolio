@@ -15,7 +15,7 @@ const projects = [
       "NLP",
       "Gemini API",
     ],
-    link: "https://github.com/kartikgarg146/Mental-Health-Chatbot",
+    link: "https://webswellspring.netlify.app/",
   },
   {
     title: "Real-Time Public Transport Tracking System",
