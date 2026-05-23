@@ -60,7 +60,7 @@ const projects = [
   {
     title: "Smart Library Management Platform",
     description:
-      "A full-stack library management platform designed to digitally manage books, users, and issue/return operations. The platform supports role-based access, efficient book tracking, and a clean responsive UI. Built to ensure scalability, maintainability, and seamless system performance.",
+      "A full-stack library management platform designed to digitally manage users, books, and issue/return operations. The platform supports role-based access, efficient book tracking, and a clean responsive UI. Built to ensure scalability, maintainability, and seamless system performance.",
     tech: [
       "React",
       "Node.js",
