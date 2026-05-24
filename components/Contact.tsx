@@ -22,7 +22,7 @@ export default function Contact() {
         </h2>
 
         <p className="mt-6 text-lg text-gray-400 leading-relaxed">
-          Whether you want to discuss a project, opportunity, or just
+          Whether you want to discuss a project, or just
           say hello — my inbox is always open.
         </p>
 
