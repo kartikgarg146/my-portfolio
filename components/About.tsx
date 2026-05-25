@@ -29,7 +29,7 @@ export default function About() {
         <p className="mt-4 text-lg text-gray-400 leading-relaxed">
           I have hands-on experience with Python, JavaScript, React, and Django, and have
           worked on projects involving REST APIs, machine learning, and real-time systems. 
-          Each project has pushed me to think not just about writing code, but about designing 
+          Each project pushed me to think not just about writing code, but about designing 
           systems that are efficient, reliable, and built to scale.
         </p>
 
