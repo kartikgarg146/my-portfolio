@@ -16,7 +16,7 @@ const skills = [
   "MySQL",
   "HTML & CSS",
   "Git & GitHub",
-  "Java",
+  "Data Preprocessing",
   "Data Structures",
   "System Design",
 ];
