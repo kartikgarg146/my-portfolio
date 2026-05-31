@@ -33,7 +33,7 @@ export default function About() {
           Currently, I am strengthening my understanding of data structures,
           algorithms, and modern web development while exploring the
           intersection of AI and full-stack engineering. I am always eager to
-          learn new technologies, collaborate on meaningful projects, and grow
+          learn the new technologies, collaborate on meaningful projects, and grow
           as a software developer.
         </p>
       </motion.div>
