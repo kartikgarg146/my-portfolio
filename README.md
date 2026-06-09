@@ -1,6 +1,6 @@
 # Kartik Garg — Portfolio
 
-Personal portfolio of **Kartik Garg**, AI & ML Engineer · Full-Stack Developer · SIH'25 Finalist.
+Personal portfolio of **Kartik Garg**, AI & ML Engineer · Front-End Developer · SIH'25 Finalist.
 
 🌐 **Live:** [my-portfolio-one-kartik-146.vercel.app](https://my-portfolio-one-kartik-146.vercel.app)
 
