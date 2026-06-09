@@ -18,7 +18,7 @@ Personal portfolio of **Kartik Garg**, AI & ML Engineer · Full-Stack Developer 
 
 ## Tech Stack
 
-- **Framework:** Next.js 14 (App Router)
+- **Framework:** Next.js (App Router)
 - **Language:** TypeScript
 - **Styling:** Tailwind CSS
 - **Animation:** Custom particles & animated background components
