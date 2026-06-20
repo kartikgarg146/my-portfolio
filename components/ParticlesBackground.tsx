@@ -11,51 +11,56 @@ export default function ParticlesBackground() {
   useEffect(() => {
     initParticlesEngine(async (engine: Engine) => {
       await loadAll(engine);
-    }).then(() => {
-      setInit(true);
-    } );
+    })
+      .then(() => {
+        setInit(true);
+      })
+      .catch((err) => {
+        console.error("Particles failed to init:", err);
+      });
   }, []);
 
   const particlesLoaded = async (container?: Container) => {
-    console.log(container);
+    console.log("Particles loaded:", container);
   };
 
+  if (!init) return null;
+
   return (
-    init && (
-      <Particles
-        id="tsparticles"
-        particlesLoaded={particlesLoaded}
-        options={{
-          fullScreen: { enable: true, zIndex: -1 },
-          background: {
-            color: "#020617",
+    <Particles
+      id="tsparticles"
+      particlesLoaded={particlesLoaded}
+      className="fixed inset-0 z-0 pointer-events-none"
+      options={{
+        fullScreen: { enable: false },
+        background: {
+          color: "rgba(0,0,0,0)",
+        },
+        particles: {
+          number: {
+            value: 80,
+            density: { enable: true, width: 1920, height: 1080 },
           },
-          particles: {
-            number: {
-              value: 80,
-              density: { enable: true },
-            },
-            color: {
-              value: ["#38bdf8", "#818cf8", "#22d3ee"],
-            },
-            links: {
-              enable: true,
-              color: "#64748b",
-              distance: 150,
-              opacity: 0.4,
-              width: 1,
-            },
-            move: {
-              enable: true,
-              speed: 1.2,
-              outModes: { default: "bounce" },
-            },
-            opacity: { value: 0.6 },
-            size: { value: { min: 1, max: 3 } },
+          color: {
+            value: ["#38bdf8", "#818cf8", "#22d3ee"],
           },
-          detectRetina: true,
-        }}
-      />
-    )
+          links: {
+            enable: true,
+            color: "#94a3b8",
+            distance: 170,
+            opacity: 0.8,
+            width: 1.5,
+          },
+          move: {
+            enable: true,
+            speed: 1.2,
+            outModes: { default: "bounce" },
+          },
+          opacity: { value: 0.7 },
+          size: { value: { min: 2, max: 4 } },
+        },
+        detectRetina: true,
+      }}
+    />
   );
 }

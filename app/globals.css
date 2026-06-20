@@ -2,16 +2,38 @@
 
 /* ===============================
    CSS VARIABLES & THEME
+   Pure black base + neon green/purple accents
 ================================ */
 :root {
-  --background: transparent;
+  --background: #1e1e1e;
+  --background-elevated: #252526;
   --foreground: #ededed;
+  --foreground-muted: #a1a1aa;
+
+  /* Neon accents */
+  --neon-green: #39ff88;
+  --neon-green-dim: #1f8f4d;
+  --neon-purple: #a855f7;
+  --neon-purple-dim: #6b21a8;
+
+  /* Glow shadows (reusable) */
+  --glow-green: 0 0 20px rgba(57, 255, 136, 0.35);
+  --glow-purple: 0 0 20px rgba(168, 85, 247, 0.35);
+
+  /* Borders */
+  --border-subtle: rgba(255, 255, 255, 0.08);
 }
 
 /* Tailwind theme bindings */
 @theme inline {
   --color-background: var(--background);
+  --color-background-elevated: var(--background-elevated);
   --color-foreground: var(--foreground);
+  --color-foreground-muted: var(--foreground-muted);
+  --color-neon-green: var(--neon-green);
+  --color-neon-green-dim: var(--neon-green-dim);
+  --color-neon-purple: var(--neon-purple);
+  --color-neon-purple-dim: var(--neon-purple-dim);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
@@ -19,15 +41,27 @@
 /* ===============================
    BASE STYLES
 ================================ */
+html {
+  scroll-snap-type: y mandatory;
+}
+
 html,
 body {
   margin: 0;
   padding: 0;
-  background: transparent;
+  background: var(--background);
   color: var(--foreground);
   min-height: 100vh;
   overflow-x: hidden;
+  overflow-y: auto;
   scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+  height: 100%;
+}
+
+/* Each full-height section snaps into place while scrolling */
+.snap-section {
+  scroll-snap-align: start;
 }
 
 /* ===============================
@@ -39,16 +73,56 @@ body {
 }
 
 /* ===============================
+   REUSABLE NEON UTILITIES
+================================ */
+
+.text-glow-green {
+  color: var(--neon-green);
+  text-shadow: 0 0 12px rgba(57, 255, 136, 0.6), 0 0 28px rgba(57, 255, 136, 0.25);
+}
+
+.text-glow-purple {
+  color: var(--neon-purple);
+  text-shadow: 0 0 12px rgba(168, 85, 247, 0.6), 0 0 28px rgba(168, 85, 247, 0.25);
+}
+
+.surface-card {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--border-subtle);
+  backdrop-filter: blur(10px);
+  border-radius: 1rem;
+}
+
+.surface-card-glow {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--border-subtle);
+  backdrop-filter: blur(10px);
+  border-radius: 1rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.surface-card-glow:hover {
+  border-color: rgba(57, 255, 136, 0.4);
+  box-shadow: var(--glow-green);
+  transform: translateY(-4px);
+}
+
+.text-gradient-neon {
+  background: linear-gradient(90deg, var(--neon-green), var(--neon-purple));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* ===============================
    OPTIONAL UTILITIES
 ================================ */
 
-/* Selection color (premium feel) */
 ::selection {
-  background: rgba(99, 102, 241, 0.35);
+  background: rgba(168, 85, 247, 0.35);
   color: white;
 }
 
-/* Scrollbar (optional but classy) */
 ::-webkit-scrollbar {
   width: 8px;
 }
@@ -58,10 +132,10 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.15);
+  background: linear-gradient(180deg, var(--neon-green-dim), var(--neon-purple-dim));
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(255, 255, 255, 0.3);
+  background: linear-gradient(180deg, var(--neon-green), var(--neon-purple));
 }

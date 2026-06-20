@@ -31,7 +31,8 @@ export default function RootLayout({
         {/* NETWORK BACKGROUND */}
         <ParticlesBackground />
 
-        {children}
+        {/* PAGE CONTENT - sits above the particles */}
+        <div className="relative z-10">{children}</div>
       </body>
     </html>
   );
