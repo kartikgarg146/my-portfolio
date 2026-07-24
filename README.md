@@ -24,15 +24,6 @@ Personal portfolio of **Kartik Garg**, AI & ML Engineer · Front-End Developer �
 - **Animation:** Custom particles & animated background components
 - **Deployment:** Vercel
 
-## Getting Started
-
-```bash
-npm install
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) in your browser.
-
 ## Contact
 
 📧 gargkartik623@gmail.com · [GitHub](https://github.com/kartikgarg146) · [LinkedIn](https://linkedin.com/in/kartikgarg146)
